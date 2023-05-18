@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row mt-5 mb-5 shadow">
+        <div class="col-lg-6 shadow p-4">
+            <h3>CREER UN NOUVEAU ARTICLE</h3>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputText1">TITRE:</label>
+                    <input type="text" class="form-control" id="exampleInputText1" aria-describedby="textHelp">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputText1">RESUME:</label>
+                    <input type="text" class="form-control" id="exampleInputText1" aria-describedby="textHelp">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputText1">CONTENU:</label>
+                    <input type="text" class="form-control" id="exampleInputText1" aria-describedby="textHelp">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputText1">AUTEUR:</label>
+                    <input type="text" class="form-control" id="exampleInputText1" aria-describedby="textHelp">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputDate1">DATE DE CREATION:</label>
+                    <input type="date" class="form-control" id="exampleInputDate1">
+                  </div>
+                <div class="form-group">
+                  <label for="exampleInputDate1">DATE DE DERNIER MISE A JOUR:</label>
+                  <input type="date" class="form-control" id="exampleInputDate1">
+                </div>
+                <button type="submit" class="btn btn-primary">Créez</button>
+              </form>
+            </div>
+        <div class="col-lg-6">
+            <img src="https://static.vecteezy.com/ti/photos-gratuite/p3/3169121-livre-sur-table-en-bois-et-fond-doux-flou-bokeh-gratuit-photo.jpg" alt="" class="img-fluid img-reponsive">
+
+        </div>
+    </div>
+ </div>
+{% endblock %}
